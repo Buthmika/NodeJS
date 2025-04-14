@@ -1,6 +1,6 @@
 
-const name = require("./db.js")
+const db = require("./db.js")
 
 require("./db.js")
 console.log("app.js working")
-console.log(name)
+console.log(db.add())
