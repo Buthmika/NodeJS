@@ -1,8 +1,8 @@
-const chalk=require("chalk")
-const db = require("./db.js")
+// app.js (ES Module Version)
 
-require("./db.js")
-// console.log("app.js working")
-// console.log(db.add())
-// console.log(db.view())
-console.log(chalk.red("Hello World"))
+import chalk from "chalk";
+import { add, view } from "./db.js";
+console.log(chalk.red("Hello World"));
+// console.log("app.js working");
+// console.log(db.add());
+// console.log(db.view());
